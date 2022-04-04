@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref display_value="Edit Webpage">9119b7c31b2e81102f5a43fddc4bcbf0</published_ref>
+        <question display_value="Change type">9e297bc31b2e81102f5a43fddc4bcbf1</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 04:10:25</sys_created_on>
+        <sys_id>16297bc31b2e81102f5a43fddc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit Webpage</sys_name>
+        <sys_package display_value="DD Needit" source="x_786606_dd_needit">83e3728f1b2a81102f5a43fddc4bcb31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DD Needit">83e3728f1b2a81102f5a43fddc4bcb31</sys_scope>
+        <sys_update_name>question_choice_16297bc31b2e81102f5a43fddc4bcbfd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 04:10:25</sys_updated_on>
+        <text>Edit Webpage</text>
+        <value>edit</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=16297bc31b2e81102f5a43fddc4bcbfd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DD Needit">83e3728f1b2a81102f5a43fddc4bcb31</application>
+        <file_path/>
+        <instance_id>b9d5b320dba7d3847d8cf22ebf961998</instance_id>
+        <instance_name>dev66909</instance_name>
+        <name>question_choice_16297bc31b2e81102f5a43fddc4bcbfd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>2</order><published_ref display_value="Edit Webpage">9119b7c31b2e81102f5a43fddc4bcbf0</published_ref><question display_value="Change type">9e297bc31b2e81102f5a43fddc4bcbf1</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-04 04:10:25</sys_created_on><sys_id>16297bc31b2e81102f5a43fddc4bcbfd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Edit Webpage</sys_name><sys_package display_value="DD Needit" source="x_786606_dd_needit">83e3728f1b2a81102f5a43fddc4bcb31</sys_package><sys_policy/><sys_scope display_value="DD Needit">83e3728f1b2a81102f5a43fddc4bcb31</sys_scope><sys_update_name>question_choice_16297bc31b2e81102f5a43fddc4bcbfd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-04 04:10:25</sys_updated_on><text>Edit Webpage</text><value>edit</value></question_choice><fx_price action="delete_multiple" query="id=16297bc31b2e81102f5a43fddc4bcbfd"/></record_update>]]></payload>
+        <payload_hash>-1542559509</payload_hash>
+        <record_name>Edit Webpage</record_name>
+        <reverted_from/>
+        <source>c6e1cb0b1b6a81102f5a43fddc4bcbfc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 04:10:26</sys_created_on>
+        <sys_id>da297bc31b2e81102f5a43fddc4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ff2c44f540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 04:10:26</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>52297bc3072e81108e62d0a7c5c12bff</update_guid>
+        <update_guid_history>52297bc3072e81108e62d0a7c5c12bff:-1542559509</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Edit Webpage">e38a33471b2e81102f5a43fddc4bcb83</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-04-04 04:16:31</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>359de39fa31944d292103f35074b6c24</sys_id>
+        <sys_metadata>16297bc31b2e81102f5a43fddc4bcbfd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit Webpage</sys_name>
+        <sys_package display_value="DD Needit" source="x_786606_dd_needit">83e3728f1b2a81102f5a43fddc4bcb31</sys_package>
+        <sys_parent display_value="">9e297bc31b2e81102f5a43fddc4bcbf1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DD Needit">83e3728f1b2a81102f5a43fddc4bcb31</sys_scope>
+        <sys_scope_delete display_value="">164aed6cd98d48ab9085fb514ce4e331</sys_scope_delete>
+        <sys_update_name>question_choice_16297bc31b2e81102f5a43fddc4bcbfd</sys_update_name>
+        <sys_update_version display_value="question_choice_16297bc31b2e81102f5a43fddc4bcbfd">da297bc31b2e81102f5a43fddc4bcbff</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-04-04 04:16:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
