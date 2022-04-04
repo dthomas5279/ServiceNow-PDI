@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>On new WEB record set requested for field to current user</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Default Requested For</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //On new record set requested for field to current user
+   if (g_form.isNewRecord()){
+	   g_form.setValue('u_request_for', g_user.userID);
+	   
+	   g_form.setSectionDisplay('notes', false);
+	   g_form.setSectionDisplay('approvals', false);
+	   g_form.setDisplay('close_notes', false);
+	   g_form.setDisplay('state', false);
+	   g_form.setDisplay('approval', false);
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-04 02:51:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2a32b831bea81102f5a43fddc4bcb49</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Default Requested For</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DD Needit" source="x_786606_dd_needit">83e3728f1b2a81102f5a43fddc4bcb31</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DD Needit">83e3728f1b2a81102f5a43fddc4bcb31</sys_scope>
+        <sys_update_name>sys_script_client_f2a32b831bea81102f5a43fddc4bcb49</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-04 04:02:48</sys_updated_on>
+        <table>x_786606_dd_needit_dd_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
