@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">e04e166aa5300110c0a0e1db2cdc951d</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-03 23:10:19</sys_created_on>
+        <sys_id>d274ba8f1b2a81102f5a43fddc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="DD Needit" source="x_786606_dd_needit">83e3728f1b2a81102f5a43fddc4bcb31</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-03 23:10:19</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
